@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
- 
+        <div className="">This is your cam</div>
         <div className="">
           <ClientSideControls />
         </div>
