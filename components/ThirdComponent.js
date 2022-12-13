@@ -1,6 +1,6 @@
 import React from 'react'
 import AgoraRTC from "agora-rtc-sdk-ng"
-import AgoraUIKit from "agora-react-uikit";
+// import AgoraUIKit from "agora-react-uikit";
 // import { useState } from 'react';
 
 // let options =

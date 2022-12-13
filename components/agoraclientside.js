@@ -189,7 +189,7 @@ const agoraclientside = () => {
     <div>
       {videoCall ? (
       <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
-        <AgoraUIKit rtcProps={rtcProps} callbacks={callbacks} />
+        {/* <AgoraUIKit rtcProps={rtcProps} callbacks={callbacks} /> */}
       </div>
       ) : (
       <h3 onClick={() => setVideoCall(true)}>Join</h3>
