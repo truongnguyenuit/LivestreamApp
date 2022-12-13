@@ -2,12 +2,14 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css';
 import dynamic from "next/dynamic";
 import SecondComponent from '../components/SecondComponent';
+import ThirdComponent from '../components/ThirdComponent';
 
-export default function Home() {
-
-  const ClientSideControls = dynamic(() => import("../components/agoraclientside"),
+const ClientSideControls = dynamic(() => import("../components/agoraclientside"),
     { ssr: false }
   );
+export default function Home() {
+
+  
 
   return (
     <div className={styles.container}>
@@ -21,7 +23,6 @@ export default function Home() {
         <SecondComponent/>
         <div className="">
           <ClientSideControls />
-          
         </div>
 
       </main>
