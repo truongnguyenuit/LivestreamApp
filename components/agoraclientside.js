@@ -8,9 +8,9 @@ let options =
   // Pass your App ID here.
   appId: '6b21991822b143e58aca7b54db2762b5',
   // Set the channel name.
-  channel: 'RC500',
+  channel: 'cloud',
   // Pass your temp token here.
-  token: '007eJxTYNDXPBswW9hkypbVwSoet0K2Xr3dy+zWk6G/ddK/H4vvyK1RYDBLMjK0tDS0MDJKMjQxTjW1SExONE8yNUlJMjI3M0oyXXR/WnJDICNDspUPMyMDBIL4rAxBzqYGBgwMAGNhHvQ=',
+  token: '007eJxTYJg04ZAUzwyZObvcRSyYTvRvjNS+U+c6oWHWUptDcTOD1cQUGMySjAwtLQ0tjIySDE2MU00tEpMTzZNMTVKSjMzNjJJMWdxnJDcEMjLE+zCyMDJAIIjPypCck1+awsAAAImPG/0=',
   // Set the user ID.
   uid: 0,
   // Set the user role
@@ -178,8 +178,8 @@ const agoraclientside = () => {
 
   const rtcProps = {
     appId: "6b21991822b143e58aca7b54db2762b5",
-    channel: "RC500",
-    token: "007eJxTYNDXPBswW9hkypbVwSoet0K2Xr3dy+zWk6G/ddK/H4vvyK1RYDBLMjK0tDS0MDJKMjQxTjW1SExONE8yNUlJMjI3M0oyXXR/WnJDICNDspUPMyMDBIL4rAxBzqYGBgwMAGNhHvQ=",
+    channel: "cloud",
+    token: "007eJxTYJg04ZAUzwyZObvcRSyYTvRvjNS+U+c6oWHWUptDcTOD1cQUGMySjAwtLQ0tjIySDE2MU00tEpMTzZNMTVKSjMzNjJJMWdxnJDcEMjLE+zCyMDJAIIjPypCck1+awsAAAImPG/0=",
   };
 
   const callbacks = {
@@ -189,7 +189,7 @@ const agoraclientside = () => {
     <div>
       {videoCall ? (
       <div style={{ display: "flex", width: "100vw", height: "100vh" }}>
-        {/* <AgoraUIKit rtcProps={rtcProps} callbacks={callbacks} /> */}
+        <AgoraUIKit rtcProps={rtcProps} callbacks={callbacks} />
       </div>
       ) : (
       <h3 onClick={() => setVideoCall(true)}>Join</h3>
