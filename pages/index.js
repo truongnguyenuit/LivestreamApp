@@ -21,9 +21,7 @@ export default function Home() {
 
         <div className="">This is your camera</div>
         <SecondComponent/>
-        <div className="">
-          <ClientSideControls />
-        </div>
+        <ClientSideControls />
 
       </main>
       <footer>
