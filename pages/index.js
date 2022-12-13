@@ -5,11 +5,14 @@ import SecondComponent from '../components/SecondComponent';
 import ThirdComponent from '../components/ThirdComponent';
 
 const ClientSideControls = dynamic(() => import("../components/agoraclientside"),
+  { ssr: false }
+);
+const ClientSideControls2 = dynamic(() => import("../components/ThirdComponent"),
     { ssr: false }
   );
 export default function Home() {
 
-  
+
 
   return (
     <div className={styles.container}>
@@ -20,9 +23,9 @@ export default function Home() {
       <main>
 
         <div className="">This is your camera</div>
-        <SecondComponent/>
+        <SecondComponent />
         <ClientSideControls />
-
+        <ClientSideControls2 />
       </main>
       <footer>
         <a
