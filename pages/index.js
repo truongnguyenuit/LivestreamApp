@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
 import dynamic from "next/dynamic";
-import { useState } from 'react';
+import SecondComponent from '../components/SecondComponent';
+
 export default function Home() {
 
   const ClientSideControls = dynamic(
@@ -18,9 +19,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <div className="">This is your cam</div>
+
+        <div className="">This is your camera</div>
+        <SecondComponent/>
         <div className="">
           <ClientSideControls />
+          
         </div>
 
       </main>
