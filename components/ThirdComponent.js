@@ -3,33 +3,33 @@ import AgoraRTC from "agora-rtc-sdk-ng"
 import AgoraUIKit from "agora-react-uikit";
 import { useState } from 'react';
 
-let options =
-{
-  // Pass your App ID here.
-  appId: '6b21991822b143e58aca7b54db2762b5',
-  // Set the channel name.
-  channel: 'RC500',
-  // Pass your temp token here.
-  token: '007eJxTYNDXPBswW9hkypbVwSoet0K2Xr3dy+zWk6G/ddK/H4vvyK1RYDBLMjK0tDS0MDJKMjQxTjW1SExONE8yNUlJMjI3M0oyXXR/WnJDICNDspUPMyMDBIL4rAxBzqYGBgwMAGNhHvQ=',
-  // Set the user ID.
-  uid: 0,
-  // Set the user role
-  role: ''
-};
+// let options =
+// {
+//   // Pass your App ID here.
+//   appId: '6b21991822b143e58aca7b54db2762b5',
+//   // Set the channel name.
+//   channel: 'RC500',
+//   // Pass your temp token here.
+//   token: '007eJxTYNDXPBswW9hkypbVwSoet0K2Xr3dy+zWk6G/ddK/H4vvyK1RYDBLMjK0tDS0MDJKMjQxTjW1SExONE8yNUlJMjI3M0oyXXR/WnJDICNDspUPMyMDBIL4rAxBzqYGBgwMAGNhHvQ=',
+//   // Set the user ID.
+//   uid: 0,
+//   // Set the user role
+//   role: ''
+// };
 
-let channelParameters =
-{
-  // A variable to hold a local audio track.
-  localAudioTrack: null,
-  // A variable to hold a local video track.
-  localVideoTrack: null,
-  // A variable to hold a remote audio track.
-  remoteAudioTrack: null,
-  // A variable to hold a remote video track.
-  remoteVideoTrack: null,
-  // A variable to hold the remote user id.s
-  remoteUid: null,
-};
+// let channelParameters =
+// {
+//   // A variable to hold a local audio track.
+//   localAudioTrack: null,
+//   // A variable to hold a local video track.
+//   localVideoTrack: null,
+//   // A variable to hold a remote audio track.
+//   remoteAudioTrack: null,
+//   // A variable to hold a remote video track.
+//   remoteVideoTrack: null,
+//   // A variable to hold the remote user id.s
+//   remoteUid: null,
+// };
 // async function startBasicCall() {
 //   // Create an instance of the Agora Engine
 //   const agoraEngine = AgoraRTC.createClient({ mode: "live", codec: "vp8" });
