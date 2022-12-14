@@ -2,14 +2,14 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css';
 import dynamic from "next/dynamic";
 import SecondComponent from '../components/SecondComponent';
-import ThirdComponent from '../components/ThirdComponent';
+
 
 const ClientSideControls = dynamic(() => import("../components/agoraclientside"),
   { ssr: false }
 );
 const ClientSideControls2 = dynamic(() => import("../components/ThirdComponent"),
-    { ssr: false }
-  );
+  { ssr: false }
+);
 export default function Home() {
 
 
@@ -24,8 +24,9 @@ export default function Home() {
 
         <div className="">This is your camera</div>
         <SecondComponent />
-        <ClientSideControls />
         <ClientSideControls2 />
+        <ClientSideControls />
+   
       </main>
       <footer>
         <a
