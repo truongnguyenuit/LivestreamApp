@@ -10,7 +10,7 @@ let options =
   // Set the channel name.
   channel: 'cloud',
   // Pass your temp token here.
-  token: '007eJxTYJg04ZAUzwyZObvcRSyYTvRvjNS+U+c6oWHWUptDcTOD1cQUGMySjAwtLQ0tjIySDE2MU00tEpMTzZNMTVKSjMzNjJJMWdxnJDcEMjLE+zCyMDJAIIjPypCck1+awsAAAImPG/0=',
+  token: '007eJxTYPg7K2Xlps5Uu7YmkR0bNdh6JA/V5b2ou75oZ7PliouX5iUoMJglGRlaWhpaGBklGZoYp5paJCYnmieZmqQkGZmbGSWZ/js4K7khkJEhLHk6IyMDBIL4rAzJOfmlKQwMAOLaIZI=',
   // Set the user ID.
   uid: 0,
   // Set the user role
@@ -179,7 +179,7 @@ const agoraclientside = () => {
   const rtcProps = {
     appId: "6b21991822b143e58aca7b54db2762b5",
     channel: "cloud",
-    token: "007eJxTYJg04ZAUzwyZObvcRSyYTvRvjNS+U+c6oWHWUptDcTOD1cQUGMySjAwtLQ0tjIySDE2MU00tEpMTzZNMTVKSjMzNjJJMWdxnJDcEMjLE+zCyMDJAIIjPypCck1+awsAAAImPG/0=",
+    token: "007eJxTYPg7K2Xlps5Uu7YmkR0bNdh6JA/V5b2ou75oZ7PliouX5iUoMJglGRlaWhpaGBklGZoYp5paJCYnmieZmqQkGZmbGSWZ/js4K7khkJEhLHk6IyMDBIL4rAzJOfmlKQwMAOLaIZI=",
   };
 
   const callbacks = {
