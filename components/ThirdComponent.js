@@ -1,10 +1,10 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import AgoraRTC from "agora-rtc-sdk-ng"
-import AgoraUIKit from "agora-react-uikit";
+import AgoraUIKit, { layout } from 'agora-react-uikit'
+import 'agora-react-uikit/dist/index.css'
 // import dynamic from 'next/dynamic';
-import { useState } from 'react';
 
-// const clientComponent = dynamic(() => import("../components/ThirdComponent"),
+// const AgoraUIKit = dynamic(() => import("agora-react-uikit"),
 //   { ssr: false }
 // );
 

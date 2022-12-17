@@ -1,16 +1,16 @@
-import React from 'react'
+import React,{ useState } from 'react'
 import AgoraRTC from "agora-rtc-sdk-ng"
 import AgoraUIKit from "agora-react-uikit";
-import { useState } from 'react';
+import 'agora-react-uikit/dist/index.css'
 
 let options =
 {
   // Pass your App ID here.
   appId: '6b21991822b143e58aca7b54db2762b5',
   // Set the channel name.
-  channel: 'cloud',
+  channel: 'RC',
   // Pass your temp token here.
-  token: '007eJxTYPg7K2Xlps5Uu7YmkR0bNdh6JA/V5b2ou75oZ7PliouX5iUoMJglGRlaWhpaGBklGZoYp5paJCYnmieZmqQkGZmbGSWZ/js4K7khkJEhLHk6IyMDBIL4rAzJOfmlKQwMAOLaIZI=',
+  token: '007eJxTYNi61ujv7Cix9w/s+ox9qu3fMkm176lXlPt5wLVkMf+XDycVGMySjAwtLQ0tjIySDE2MU00tEpMTzZNMTVKSjMzNjJJMhRrmJjcEMjJIPL3NysgAgSA+E0OQMwMDACFvHpU=',
   // Set the user ID.
   uid: 0,
   // Set the user role
@@ -178,8 +178,8 @@ const agoraclientside = () => {
 
   const rtcProps = {
     appId: "6b21991822b143e58aca7b54db2762b5",
-    channel: "cloud",
-    token: "007eJxTYPg7K2Xlps5Uu7YmkR0bNdh6JA/V5b2ou75oZ7PliouX5iUoMJglGRlaWhpaGBklGZoYp5paJCYnmieZmqQkGZmbGSWZ/js4K7khkJEhLHk6IyMDBIL4rAzJOfmlKQwMAOLaIZI=",
+    channel: "RC",
+    token: "007eJxTYNi61ujv7Cix9w/s+ox9qu3fMkm176lXlPt5wLVkMf+XDycVGMySjAwtLQ0tjIySDE2MU00tEpMTzZNMTVKSjMzNjJJMhRrmJjcEMjJIPL3NysgAgSA+E0OQMwMDACFvHpU=",
   };
 
   const callbacks = {

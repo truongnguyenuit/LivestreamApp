@@ -6,7 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "agora-react-uikit": "^1.1.1",
+    "agora-react-uikit": "^1.2.0",
     "agora-rtc-sdk-ng": "^4.15.1",
     "next": "latest",
     "react": "18.2.0",
