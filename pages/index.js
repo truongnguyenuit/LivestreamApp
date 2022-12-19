@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css';
 import dynamic from "next/dynamic";
-import SecondComponent from '../components/SecondComponent';
 
 
 const ClientSideControls = dynamic(() => import("../components/agoraclientside"),
@@ -23,7 +22,6 @@ export default function Home() {
       <main>
 
         <div className="">This is your camera</div>
-        <SecondComponent />
         <ClientSideControls2 />
         <ClientSideControls />
    
